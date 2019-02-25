@@ -1,9 +1,17 @@
-.gurolcan{
-	height:421px;
-	width:332px;
-	background-color:orange;
+.head{
+	overflow: hidden;
+	background-color: grey;
+	box-shadow: 3px 15px 25px red;
+	position: fixed;
+	width: 100%; 
+	top:0;
+
 }
-.textrenk{
-	color:white;
-	
+
+.logo{
+
+	width: 80px;
+	height: 80px;
+	margin-left: 30px;
+	margin-top: 5px;
 }
