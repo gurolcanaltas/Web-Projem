@@ -1,39 +1,112 @@
-.navbar {
-  overflow: hidden;
-  height: 16%;
-  background-color: #9999;
-  position: fixed; 
-  left: 0; 
-  top: 0;
+html {
+    box-sizing: border-box;
+  }
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+nav {
   width: 100%;
-}
-.logo{
-	float: left;
-	width: 125px;
-	height: 125px;
-	margin-left: 500px;
-	margin-top: 10px;
+  background-color: darkgreen;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.navbar a:hover {
-  background: #ddd;
-  color: black;
+.logo {
+  display: inline-block;
 }
 
-.navbar a {
-  margin-left: 15px;
-  margin-top: -15px;
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 16px 16px;
+.logo img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+  }
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
   text-decoration: none;
+  color: white;
 }
 
-.populer{
-  margin-top: 30px;
-  margin-left: 20px;
+/*Slider*/
+.slider{
+    margin-top: 50px;
+}
+.mySlides {display:none;}
 
+/*Main*/
 
+.main{
+    margin: auto;
+    width: 1000px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card{
+    flex: 0 0 200px;
+    margin:15px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    width: 250px;
+    text-align: center;
+}
+
+.card header{
+    border:1px solid #ddd;
+}
+
+.card .desc{
+    border:1px solid #ddd;
+}
+
+.right{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.right a{
+    text-decoration: none;
+    color: white;
+}
+
+.right .topic{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border:1px solid #ddd;
+    background-color: tomato;
+}
+
+.right header>h4{
+    border-bottom: 1px solid #ddd;
+}
+
+.topic{
+ height: 100px;
+ background-size: cover;
+ line-height: 80px;
 }
