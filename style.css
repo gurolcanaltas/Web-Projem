@@ -25,6 +25,7 @@ nav {
     width: 100px;
     height: 100px;
     vertical-align: middle;
+    margin-left: 400%;
   }
 .nav-links {
   list-style: none;
@@ -109,4 +110,20 @@ nav {
  height: 100px;
  background-size: cover;
  line-height: 80px;
+}
+
+footer {
+  margin: auto auto 0 auto;
+  background-color: aqua;
+  height: 50%;
+  max-width: 100%;
+  display: flex
+}
+.footer2 {
+  display: inline-block;
+}
+.logofooter img{
+  width: 100px;
+    height: 100px;
+    vertical-align: middle;
 }
