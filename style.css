@@ -15,6 +15,7 @@ nav {
   padding-right: 10px;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo {
@@ -115,15 +116,38 @@ nav {
 footer {
   margin: auto auto 0 auto;
   background-color: aqua;
-  height: 50%;
+  max-height: 50%;
   max-width: 100%;
-  display: flex
+  margin-top: 3%;
 }
-.footer2 {
-  display: inline-block;
-}
+
 .logofooter img{
   width: 100px;
-    height: 100px;
-    vertical-align: middle;
+  height: 100px;
+  display: inline-block;
+  margin-left: 7%;
+  pointer-events: none;
+  
+}
+.
+.footermain {
+  display: inline-block;
+  
+}
+.footermain p{
+  display: inline-block; 
+  margin-left: 1%;
+  max-width: 27%;
+  align: center;
+  
+}
+
+.reserved{
+ display: inline;
+
+
+}
+.reserved p{
+  font-size: 12px;
+
 }
