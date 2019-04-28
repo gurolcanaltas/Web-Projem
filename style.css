@@ -119,15 +119,16 @@ footer {
   max-height: 50%;
   max-width: 100%;
   margin-top: 3%;
+	padding-top: 1%;
+
+	
 }
 
-.logofooter img{
+.logofooter{
   width: 100px;
   height: 100px;
   display: inline-block;
-  margin-left: 7%;
-  pointer-events: none;
-  
+  pointer-events: none
 }
 .
 .footermain {
@@ -138,7 +139,6 @@ footer {
   display: inline-block; 
   margin-left: 1%;
   max-width: 27%;
-  align: center;
   
 }
 
@@ -149,5 +149,27 @@ footer {
 }
 .reserved p{
   font-size: 12px;
+	margin: 0% 0% 0% 2%
 
+}
+
+.footertext{
+background-color: red;
+height: %2;
+margin: 0% 0% 0% 6%
+}
+
+.bosluk{
+margin-left: 7%;
+margin-right: 7%;
+}
+.icboslukfooter{
+margin: 0% 6% 0% 6%
+}
+
+.full-width {
+  width: 100%;
+}
+.500 {
+  height:500px;
 }
