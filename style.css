@@ -1,7 +1,10 @@
 html {
     box-sizing: border-box;
   }
-  
+  body{
+    background-color:#201f1f
+
+  }
 *, *::before, *::after {
     box-sizing: inherit;
     margin: 0;
@@ -10,12 +13,13 @@ html {
 
 nav {
   width: 100%;
-  background-color: darkgreen;
+  background-color:#292828;
   padding-left: 30px;
   padding-right: 10px;
   display: flex;
   align-items: center;
   overflow: hidden;
+  box-shadow: 0 0 40px 0 rgba(5, 5, 5, 0.2);
 }
 
 .logo {
@@ -67,18 +71,21 @@ nav {
 .card{
     flex: 0 0 200px;
     margin:2%;
-    border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     width: 250px;
     text-align: center;
 }
 
 .card header{
-    border:1px solid #ddd;
+    border:1px solid #161515;
+    background-color: #161515;
+    color: rgb(151, 151, 151);
 }
 
 .card .desc{
-    border:1px solid #ddd;
+    border:1px solid #2c2c2c;
+    background-color: #2c2c2c;
+    color: rgb(77, 77, 77);
 }
 
 .right{
@@ -115,7 +122,7 @@ nav {
 
 footer {
   margin: auto auto 0 auto;
-  background-color: aqua;
+  background-color:#181717;
   max-height: 50%;
   max-width: 100%;
   margin-top: 3%;
@@ -149,12 +156,12 @@ footer {
 }
 .reserved p{
   font-size: 12px;
-	margin: 0% 0% 0% 2%
-
+	margin: 0% 0% 0% 7%;
+  color: rgb(151, 151, 151)
 }
 
 .footertext{
-background-color: red;
+  color: rgb(151, 151, 151);
 height: %2;
 margin: 0% 0% 0% 6%
 }
@@ -169,7 +176,8 @@ margin: 0% 6% 0% 6%
 
 .full-width {
   width: 100%;
-  opacity: 0.8
+  opacity: 0.6;
+  box-shadow: 0 4px 40px 0 rgba(5, 5, 5, 0.6);
 }
 .500 {
   max-height: 500px;
@@ -185,7 +193,10 @@ margin: 0% 6% 0% 6%
   width: 100%;
   max-height: 500px;
   text-align: center;
-    margin-top: 11%;
+  margin-top: 11%;
+  color: rgb(226, 226, 226);
+  text-shadow: 7px 4px 10px  #000;
+  
 }
 
 .text-content{
@@ -193,7 +204,16 @@ text-align: left;
 margin-left: 17%;
 margin-right: 17%;
 margin-top: 2%;
-background-color: ghostwhite;
-padding: 40px
+background-color: #161515;
+padding: 40px;
+color: rgb(128, 128, 128)
 
+}
+
+.populer{
+  color: #ddd
+
+}
+#topictext{
+  color: #ddd
 }
