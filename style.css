@@ -36,7 +36,7 @@ nav {
   list-style: none;
   display: flex;
   flex: 1;
-  justify-content: center;
+  margin-left: 32%;
 }
 
 .nav-item a {
@@ -56,14 +56,14 @@ nav {
 
 .main{
     margin: auto;
-    width: 1000px;
+    width: 80%;;
     margin-top: 50px;
     display: flex;
 }
 
 .left{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     flex-wrap: wrap;
     align-items: stretch;
 }
@@ -89,7 +89,7 @@ nav {
 }
 
 .right{
-    width: 300px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     margin-left:10px;
@@ -216,4 +216,20 @@ color: rgb(128, 128, 128)
 }
 #topictext{
   color: #ddd
+}
+
+.href{
+
+  text-decoration: none;
+}
+.hakkimizda{
+height: 1000px;
+
+}
+
+.hakkimizda-kare{
+  background-color: rgb(22, 21, 21);
+  width: 120px;
+ margin: 20px;
+ 
 }
