@@ -48,9 +48,20 @@ nav {
 
 /*Slider*/
 .slider{
-    margin-top: 50px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
-.mySlides {display:none;}
+.mySlides {display:none;
+  padding: 0;
+  object-fit: cover;
+  width: 1694px;
+  height: 600px;
+  opacity: 0.7;
+}
+
+.slider-size{
+
+}
 
 /*Main*/
 
@@ -63,17 +74,24 @@ nav {
 
 .left{
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
     flex-wrap: wrap;
     align-items: stretch;
 }
 
 .card{
     flex: 0 0 200px;
-    margin:2%;
+    margin:1%;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     width: 250px;
     text-align: center;
+}
+.card img{
+  padding: 0;
+  object-fit: cover;
+  width: 250px;
+  height: 150px;
+  opacity: 0.6;
 }
 
 .card header{
@@ -98,16 +116,30 @@ nav {
 }
 
 .right a{
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+  /* word-wrap: normal; */
+  /* width: 300px; */
+  max-width: 300px;
+  word-wrap: break-word;
+  /* margin: 43px 0 0 0; */
+  display: inherit;
+  margin: 52px 0 0 0;
+  width: 220px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  text-shadow: 7px 4px 10px #000;
+}
 }
 
 .right .topic{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border:1px solid #ddd;
-    background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+    
 }
 
 .right header>h4{
@@ -115,9 +147,11 @@ nav {
 }
 
 .topic{
- height: 100px;
- background-size: cover;
- line-height: 80px;
+  height: 150px;
+  background-size: cover;
+  line-height: 25px;
+  max-height: 200px;
+  width: 220px;
 }
 
 footer {
@@ -179,12 +213,21 @@ margin: 0% 6% 0% 6%
   opacity: 0.6;
   box-shadow: 0 4px 40px 0 rgba(5, 5, 5, 0.6);
 }
-.500 {
+.pink500 {
   max-height: 500px;
+  
+}
+.pink500 img{
+  padding: 0;
+  object-fit: cover;
+  max-width: 100%;
+  height: 500px;
+
 }
 
+
 .kategoriler{
-  margin-top: 3%
+  margin: 1% 5% 0 5%;
 
 }
 .contect-header{
@@ -233,3 +276,25 @@ height: 1000px;
  margin: 20px;
  
 }
+
+.slider-left-button{
+  position:absolute;
+  top:40%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%);
+  margin: 0% 0% 0% 4%;
+}
+
+.slider-right-button{
+  position:absolute;
+  top:40%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%);
+  margin: 0% 4% 0% 0%;
+}
+
+  .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+
+  
